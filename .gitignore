@@ -1,6 +1,9 @@
+#Aref files
 node_modules
 package-lock.json
 .ipynb_checkpoints
 cb_2018_us_state_20m
 leftovers.py
 rmf.txt
+statekey.json
+.vscode/
