@@ -6,7 +6,7 @@ import math
 
 import json
 
-df = pd.read_csv("state_data")
+df = pd.read_csv("graphing_data_aref/state_data")
 
 
 pop = df["Population"].to_numpy()/math.pow(10, 6)
