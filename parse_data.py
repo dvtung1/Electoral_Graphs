@@ -31,7 +31,7 @@ ax2 = ax.twinx() # Create another axes that shares the same x-axis as ax.
 width = 0.4
 
 df.rationed_ecv.plot(kind='bar', color='orange', ax=ax, width=width, position=1)
-df["N.H.W Percentage"].plot(kind='bar', color='blue', ax=ax2, width=width, position=0)
+df["N.H.W. Percentage"].plot(kind='bar', color='blue', ax=ax2, width=width, position=0)
 
 ax.set_ylabel("Electoral Votes / 1 Million Residents")
 ax2.set_ylabel("Non-Hispanic White Pop. / 100 state residents")
