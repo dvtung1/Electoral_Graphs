@@ -1,2 +1,2 @@
-# Electoral_Graphs
-something something something
+# Electoral Analysis
+An interactive website that analyzes the power of voters in different states. In light of the recent election, we were curious to see how much of a say people really had when voting for their president. We also wanted to see how racial demographics in a state would also play into the electoral college and tried to find any underlying (or not) prejudices in the electoral college.
