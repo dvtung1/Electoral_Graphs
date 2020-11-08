@@ -1,3 +1,5 @@
+"use strict";
+
 const app = require("./app");
 
 //if local, use 3000. otherwise, use the deploy service port

@@ -8,7 +8,7 @@ var simplemaps_usmap_mapdata={
     popups: "detect",
     
     //State defaults
-    state_description: "State Description",
+    state_description: "",
     state_color: "#88A4BC",
     state_hover_color: "#3B729F",
     state_url: "",
@@ -17,13 +17,13 @@ var simplemaps_usmap_mapdata={
     all_states_zoomable: "yes",
     
     //Location defaults
-    location_description: "Add location markers using latitude and longitude!",
-    location_color: "#2041D4",
+    location_description: "",
+    location_color: "#550080",
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
-    location_size: 25,
-    location_type: "square",
+    location_size: 22,
+    location_type: "circle",
     location_image_source: "frog.png",
     location_border_color: "#FFFFFF",
     location_border: 2,
@@ -65,6 +65,8 @@ var simplemaps_usmap_mapdata={
     fade_time: 0.1,
     import_labels: "no",
     link_text: "View Website"
+  },
+  locations: {
   },
   state_specific: {
     HI: {
