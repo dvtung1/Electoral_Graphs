@@ -25,7 +25,7 @@ function normalize(val, max, min) {
 
 function reloadMapScript() {
 	var mapScript = document.createElement("script"); // create a script DOM node
-	mapScript.src = "usmap.js"; // set its src to the provided URL
+	mapScript.src = "Electoral_Graphs/usmap.js"; // set its src to the provided URL
 	document.head.appendChild(mapScript);
 }
 
