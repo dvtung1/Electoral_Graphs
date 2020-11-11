@@ -1,5 +1,5 @@
 "use strict";
-const DOMAIN = "http://www.electoralanalysis.tech";
+const DOMAIN = "https://hackpsu20.herokuapp.com";
 
 function shade(color, percent) {
 	if (color.length > 7) return shadeRGBColor(color, percent);
